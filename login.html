@@ -3,42 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login page</title>
+    <link rel="stylesheet" href="css/login.css">
+    <title>travel | Login page</title>
 </head>
 <body>
-    <div class="container">
-        <div class="left-side">
-            <h1 class="title">travel.</h1>
-            <p class="sub-title">Book your trip in minute, get full control for much longer.</p>
-        </div>
+    <main>
+        <div class="container">
+            <h1>Login</h1>
+            <form action="../">
+                <div class="form-container">
+                    <div class="form-group">
+                        <label for="Username">Username:</label>
+                        <input type="text" name="username" id="username">
+                    </div>
 
-        <div class="right-side">
-            <h1 class="form-title">
-                Create Account
-            </h1>
-
-            <div class="signin-buttons">
-                <button class="google-btn">
-                    <img src="images/google.png" alt="google">
-                    Sign up with Google
-                </button>
-
-                <button class="google-btn">
-                    <img src="images/facebook.png" alt="facebook">
-                    Sign up with Facebook
-                </button>
-            </div>
-
-            <form action="">
-                <input type="text" id="user-name" placeholder="Full Name">
-                <input type="text" id="email" placeholder="Email Address">
-                <input type="password" id="password" placeholder="password">
-                <button>
-                    Create Account
-                </button>
-                <p>Already have an account? <a href="#">log in</a></p>
+                    <div class="form-group">
+                        <label for="Username">Email:</label>
+                        <input type="email" name="email" id="email">
+                    </div>
+                    <div class="form-group">
+                        <label for="Username">Password:</label>
+                        <input type="password" name="password" id="Password">
+                    </div>
+                    <button type="submit">Login</button>
+                </div>
             </form>
         </div>
-    </div>
+    </main>
+
+    <script src="js/main.js"></script>
 </body>
 </html>

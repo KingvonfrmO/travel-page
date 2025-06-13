@@ -31,7 +31,6 @@ document.addEventListener('DOMContentLoaded', function(){
     form.addEventListener('submit', function(e){
         e.preventDefault();
         let filled = true;
-        let news_letter_filled = true
 
         const first_name = document.getElementById('first-name')
         if (first_name.value.trim() === ""){
@@ -121,6 +120,18 @@ document.addEventListener('DOMContentLoaded', function(){
             }
         });
     }
-        
 
+    window.onscroll = function() {
+        const scroll_button = document.getElementById('scrollTopBtn');
+        if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+            scroll_button.style.display = 'block'
+        } else {
+            scroll_button.style.display = 'none'
+        }
+        scroll_button.addEventListener('click', function scrollToTop() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+    };
+
+    
 });

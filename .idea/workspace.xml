@@ -4,41 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9602860b-4d6a-42a6-b317-920828e840e8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Travel_project_requirements.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/contact.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/destination.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/footer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/header.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/hero.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/services.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/CTA.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/destination-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/destination-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/destination-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/facebook.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gear.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/google.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/london.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/london.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/microphone.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/other.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/plane.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/play-button.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/rome.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/weather.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/login.html" afterDir="false" />
-    </list>
+    <list default="true" id="9602860b-4d6a-42a6-b317-920828e840e8" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,6 +21,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "KingvonfrmO"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/KingvonfrmO/travel-page.git",
+    "accountId": "b29717f5-2b95-4b34-ad8c-bae82f72b210"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -69,6 +47,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "DefaultHtmlFileTemplate": "HTML File",
+    "JavaScript Debug.about.html.executor": "Run",
     "JavaScript Debug.contact.html.executor": "Run",
     "JavaScript Debug.index.html.executor": "Run",
     "JavaScript Debug.login-page.html.executor": "Debug",
@@ -112,6 +91,7 @@
       <workItem from="1749620555941" duration="2299000" />
       <workItem from="1749622908748" duration="23130000" />
       <workItem from="1749710130269" duration="82000" />
+      <workItem from="1749793999857" duration="6074000" />
     </task>
     <servers />
   </component>
