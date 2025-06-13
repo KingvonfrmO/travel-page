@@ -1,0 +1,90 @@
+.destinations{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.titles{
+    display: flex;
+    align-items: center;
+}
+
+.destinations-images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titles{
+    display: flex;
+    flex-direction: column;
+}
+
+.top-selling{
+    font-family: Poppins, serif;
+    font-size: 25px;
+    font-weight: 600;
+    color: #14183E;
+}
+
+.top-destinations{
+    font-family: Poppins, serif;
+    font-size: 25px;
+    font-weight: 600;
+    color: #14183E;
+}
+
+.destination-1,
+.destination-2,
+.destination-3{
+    width: 415px;
+    height: 457px;
+}
+
+
+.news-letter{
+    margin: 10px 40px;
+    height: 322px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.newsletter-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+}
+
+.newsletter-content p{
+    font-family: Poppins, serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #666666;
+    line-height: 54px;
+}
+
+form{
+    display: flex;
+    gap: 30px;
+}
+
+.newsletter-input{
+    width: 421px;
+    height: 68px;
+    border: 1px solid #39425D;
+    border-radius: 10px;
+}
+
+.newsletter-content button{
+    width: 180px;
+    height: 68px;
+    color: #fff;
+    font-family: Poppins, serif;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: deepskyblue;
+    border: none;
+    border-radius: 10px;
+}
