@@ -2,6 +2,7 @@
     display: flex;
     padding: 10px 30px;
     gap: 30px;
+    justify-content: center;
 }
 
 .introduction{
@@ -52,6 +53,12 @@
     font-family: Poppins, serif;
 }
 
+.find-btn:hover{
+    transform: scale(1.05);
+    background-color: #f9a800;
+    transition: .2s ease-in-out;
+}
+
 .play-btn{
     border: none;
     border-radius: 50%;
@@ -59,6 +66,12 @@
     height: 37px;
     background-color: #fd4141;
 }
+
+.play-btn:hover{
+    transform: scale(1.05);
+    background-color: #f70000;
+    transition: .2s ease-in-out;
+}   
 
 .play-demo{
     font-size: 15px;

@@ -1,0 +1,64 @@
+.about h1 {
+    font-size: 44px;
+    font-family: "cormorant", serif;
+    text-align: center;
+    padding-top: 10rem;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 30px;
+    padding-bottom: 50px;
+}
+
+.content h2 {
+    font-size: 44px;
+    font-family: "cormorant", serif;
+}
+
+.content p {
+    font-size: 19px;
+    font-family: "DM Sans", serif;
+    font-weight: bolder;
+    color: #7e7e85;
+    line-height: 30px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.list ul li::before {
+    content: "✔️ ";
+    color: burlywood;
+    font-weight: bold;
+}
+
+.list {
+    font-size: 19px;
+    font-family: "DM Sans", serif;
+    font-weight: bolder;
+    color: #7e7e85;
+    line-height: 30px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    padding-right: 90px;
+}
+
+.nairobi-images {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 30px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.nairobi-images img {
+    height: 480px;
+    width: 350px;
+}
+
+.nairobi-images img:hover {
+    transform: scale(1.0345);
+    transition: 0.35s ease-in-out;
+}
