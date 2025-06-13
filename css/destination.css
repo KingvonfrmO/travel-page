@@ -88,3 +88,31 @@ form{
     border: none;
     border-radius: 10px;
 }
+
+.newsletter-content button:hover{
+    transform: scale(1.05);
+    transition: .2s ease-in-out;
+    background-color: #1a8cd8;
+}  
+
+.error{
+    color: #ff4141;
+    font-size: 0.95em;
+    margin-top: 4px;
+}
+
+.toast{
+    display: none;
+    position: fixed;
+    top: 24px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #a1ff03;
+    color: #fff;
+    padding: 16px 32px;
+    border-radius: 8px;
+    font-size: 1.1em;
+    z-index: 1000;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.15);
+    outline: none;
+}

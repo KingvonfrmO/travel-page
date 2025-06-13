@@ -31,6 +31,7 @@ document.addEventListener('DOMContentLoaded', function(){
     form.addEventListener('submit', function(e){
         e.preventDefault();
         let filled = true;
+        let news_letter_filled = true
 
         const first_name = document.getElementById('first-name')
         if (first_name.value.trim() === ""){
@@ -95,4 +96,31 @@ document.addEventListener('DOMContentLoaded', function(){
             show_toast("Message sent Successfully!");
         }
     });
+
+
+    const newsletterForm = document.querySelector('.newsletter-form');
+    if (newsletterForm) {
+        newsletterForm.addEventListener('submit', function(e) {
+            e.preventDefault();
+            let newsletter_filled = true;
+            const newsletter_input = document.querySelector('.newsletter-input');
+            const newsletter_pattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            if (newsletter_input.value.trim() === "") {
+                show_error(newsletter_input, "Please Enter your Email");
+                newsletter_filled = false;
+            } else if (!newsletter_pattern.test(newsletter_input.value.trim())) {
+                show_error(newsletter_input, "Enter valid email *");
+                newsletter_filled = false;
+            } else {
+                clear_error(newsletter_input);
+            }
+
+            if (newsletter_filled === true) {
+                newsletterForm.reset();
+                show_toast("Subscribed");
+            }
+        });
+    }
+        
+
 });
