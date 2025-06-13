@@ -1,0 +1,48 @@
+.services{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 20px;
+
+}
+
+.category-label{
+    font-family: Poppins, serif;
+    font-size: 15px;
+    font-weight: 600;
+    color: #5E6282;
+}
+
+.section-title{
+    font-family: Poppins, serif;
+    font-size: 25px;
+    font-weight: 600;
+    color: #14183E;
+}
+
+.services-list{
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    width: 1024px;
+    height: 419px;
+    gap: 30px;
+}
+
+.service{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #fff;
+    width: 242px;
+    height: 284px;
+    border-radius: 10px;
+}
+
+.service img{
+    width: 48px;
+    height: 51px;
+}
+

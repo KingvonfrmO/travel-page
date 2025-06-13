@@ -1,0 +1,19 @@
+.footer{
+    display: flex;
+    justify-content: space-between;
+    width: 998px;
+    height: 260px;
+    padding: 40px 20px;
+}
+
+.footer-links{
+    display: flex;
+    gap: 70px;
+}
+
+.footer-links ul{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    gap: 10px;
+}
