@@ -1,73 +1,94 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Create Account - Travel</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:400,600&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/contact.css">
-    <link rel="stylesheet" href="css/header.css">
-    <link href="https://fonts.googleapis.com/css?family=Poppins:400,600,700&display=swap" rel="stylesheet">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <title>travel | contact</title>
-</head>
-<body>
-<header class="header">
-    <div class="title">
-        <h1>travel</h1>
-    </div>
-    <nav>
-        <ul class="nav-bar">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </nav>
-    <button class="sign-btn">Sign up</button>
-</header>
-<main>
+  </head>
+  <body>
     <div class="container">
-        <h1>Contact Us</h1>
-        <form action="../">
-            <div class="form-grid">
-                <div class="form-group">
-                    <label for="first-name">First Name</label>
-                    <input type="text" id="first-name">
-                </div>
-
-                <div class="form-group">
-                    <label for="last-name">Last Name</label>
-                    <input type="text" id="last-name">
-                </div>
-
-                <div class="form-group">
-                    <label for="email">Email</label>
-                    <input type="text" id="email">
-                </div>
-
-                <div class="form-group">
-                    <label for="phone-number">Phone</label>
-                    <input type="text" id="phone-number">
-                </div>
-
-                <div class="form-group">
-                    <label for="message">Message</label>
-                   <textarea id="message"></textarea>
-                </div>
-
-                <div class="form-group">
-                    <input type="checkbox" id="consent" >
-                    <label for="consent">Do you consent to the above?</label>
-                </div>
-            </div>
-
-            <button type="submit">
-                Submit
+      <div class="left-panel">
+        <div class="logo">travel.</div>
+        <div class="desc">
+          Book your trip in minute, get full<br />
+          Control for much longer.
+        </div>
+      </div>
+      <div class="right-panel">
+        <form class="form-box" autocomplete="off">
+          <h2>Create Account</h2>
+          <div class="social-row">
+            <button type="button" class="social-btn">
+              <img
+                src="images/google.png"
+                alt="Google"
+              />
+              Sign up with Google
             </button>
+            <button type="button" class="social-btn">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/0/05/Facebook_Logo_%282019%29.png"
+                alt="Facebook"
+                style="border-radius: 50%"
+              />
+              Sign up with Facebook
+            </button>
+          </div>
+          <div class="or-divider">- OR -</div>
+          <div class="input-group">
+            <input type="text" placeholder="Full Name" required />
+          </div>
+          <div class="input-group">
+            <input type="email" placeholder="Email Address" required />
+          </div>
+          <div class="input-group">
+            <input
+              type="password"
+              placeholder="Password"
+              required
+              id="password"
+            />
+            <svg
+              class="eye-icon"
+              onclick="togglePassword()"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+            >
+              <path d="M1 12s4-7 11-7 11 7 11 7-4 7-11 7-11-7-11-7z" />
+              <circle cx="12" cy="12" r="3" />
+              <line
+                x1="4"
+                y1="19"
+                x2="20"
+                y2="5"
+                stroke="#888"
+                stroke-width="2"
+              />
+            </svg>
+          </div>
+          <button class="create-btn" type="submit">Create Account</button>
+          <div style="margin-top: 10px; color: #888; font-size: 1rem">
+            Already have an account?
+            <a href="#" class="login-link">Log in</a>
+          </div>
         </form>
+      </div>
     </div>
-</main>
-<div id="toast" role="status" aria-live="polite" style="display:none;" class="toast"></div>
-<script src="js/main.js"></script>
-</body>
+    <script>
+      function togglePassword() {
+        const pwd = document.getElementById("password");
+        if (pwd.type === "password") {
+          pwd.type = "text";
+        } else {
+          pwd.type = "password";
+        }
+      }
+    </script>
+  </body>
 </html>
