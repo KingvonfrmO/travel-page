@@ -1,36 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/login.css">
-    <title>travel | Login page</title>
-</head>
-<body>
-    <main>
-        <div class="container">
-            <h1>Login</h1>
-            <form action="../">
-                <div class="form-container">
-                    <div class="form-group">
-                        <label for="Username">Username:</label>
-                        <input type="text" name="username" id="username">
-                    </div>
-
-                    <div class="form-group">
-                        <label for="Username">Email:</label>
-                        <input type="email" name="email" id="email">
-                    </div>
-                    <div class="form-group">
-                        <label for="Username">Password:</label>
-                        <input type="password" name="password" id="Password">
-                    </div>
-                    <button type="submit">Login</button>
-                </div>
-            </form>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Create Account - Travel</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:400,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/contact.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="left-panel">
+        <div class="logo">travel.</div>
+        <div class="desc">
+          Book your trip in minute, get full<br />
+          Control for much longer.
         </div>
-    </main>
-
-    <script src="js/main.js"></script>
-</body>
+      </div>
+      <div class="right-panel">
+        <form class="form-box" autocomplete="off">
+          <h2>Create Account</h2>
+          <div class="social-row">
+            <button type="button" class="social-btn">
+              <img
+                src="images/google.png"
+                alt="Google"
+              />
+              Sign up with Google
+            </button>
+            <button type="button" class="social-btn">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/0/05/Facebook_Logo_%282019%29.png"
+                alt="Facebook"
+                style="border-radius: 50%"
+              />
+              Sign up with Facebook
+            </button>
+          </div>
+          <div class="or-divider">- OR -</div>
+          <div class="input-group">
+            <input type="text" placeholder="Full Name" required />
+          </div>
+          <div class="input-group">
+            <input type="email" placeholder="Email Address" required />
+          </div>
+          <div class="input-group">
+            <input
+              type="password"
+              placeholder="Password"
+              required
+              id="password"
+            />
+            <svg
+              class="eye-icon"
+              onclick="togglePassword()"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+            >
+              <path d="M1 12s4-7 11-7 11 7 11 7-4 7-11 7-11-7-11-7z" />
+              <circle cx="12" cy="12" r="3" />
+              <line
+                x1="4"
+                y1="19"
+                x2="20"
+                y2="5"
+                stroke="#888"
+                stroke-width="2"
+              />
+            </svg>
+          </div>
+          <button class="create-btn" type="submit">Create Account</button>
+          <div style="margin-top: 10px; color: #888; font-size: 1rem">
+            Already have an account?
+            <a href="#" class="login-link">Log in</a>
+          </div>
+        </form>
+      </div>
+    </div>
+    <script>
+      function togglePassword() {
+        const pwd = document.getElementById("password");
+        if (pwd.type === "password") {
+          pwd.type = "text";
+        } else {
+          pwd.type = "password";
+        }
+      }
+    </script>
+  </body>
 </html>
