@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>travel | destination-budget</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/destination.css">
+
+</head>
+<body>
+    <div class="destination-page">
+        <div class="left-side">
+            <div class="destination-content">
+                <div class="destination-image">
+                    <img id="destination-image" src="" alt="">
+                </div>
+                <div class="destination-header">
+                    <h1 id="destination-name"></h1>
+                    <div class="weather-info">
+                        <span id="weather-temp"></span>
+                    </div>
+                </div>
+                <div class="destination-details">
+                    <div class="price-info">
+                        <h3>Price Range</h3>
+                        <span id="price-label"></span>
+                    </div>
+                    <div class="trip-info">
+                        <h3>Trip Duration</h3>
+                        <span id="duration-label"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="right-side">
+            <form action="../">
+                <div class="grid-form">
+                    <div class="form-grid">
+                        <label for="destination">Destination:</label>
+                        <input type="text" placeholder="" id="destination" readonly>
+                    </div>
+
+                    <div class="form-grid">
+                        <label for="trip-duration">Trip duration:</label>
+                        <input type="text" placeholder="" id="trip-duration" readonly>
+                    </div>
+
+                    <div class="form-grid">
+                        <label for="accomodation-cost">Accomodation cost:</label>
+                        <input type="text" placeholder="" id="accomodation-cost">
+                    </div>
+
+                    <div class="form-grid">
+                        <label for="transportation-cost">Transportation cost:</label>
+                        <input type="text" placeholder="" id="transportation-cost">
+                    </div>
+
+                    <div class="form-grid">
+                        <label for="food-cost">Food cost:</label>
+                        <input type="text" placeholder="" id="food-cost">
+                    </div>
+
+                    <div class="form-grid">
+                        <label for="entertainment-cost">Entertainment cost:</label>
+                        <input type="text" placeholder="" id="entertainment-cost">
+                    </div>
+
+                    <div class="form-grid">
+                        <label for="emergency-fund">Emergency fund:</label>
+                        <input type="text" placeholder="10%" id="emergency-fund">
+                    </div>
+
+                    <div class="form-grid">
+                        <button id="calculate">Calculate</button>
+                    </div>
+
+                    <div class="result">
+                        <p>Total cost: <span id="result"></span></p>
+                        <p>Daily average: <span id="daily-average"></span></p>
+                        <p>Emergency fund: <span id="emergency-fund-result"></span></p>
+                    </div>
+                </div>
+            </form>
+            </div>
+        </div>
+    </div>  
+    <script src="js/destinations.js"></script>
+    <script src="js/budget.js"></script>
+</body>
+</html>

@@ -250,7 +250,11 @@ body {
   font-weight: 600;
   font-size: 1.05rem;
 }
-
+.weather{
+  display: flex;
+  font-size: 0.95rem;
+  align-self: left;
+}
 .price {
   color: #ff6f61;
   font-weight: 700;
